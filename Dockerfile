@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN apk add --no-cache bind-tools
+RUN apk -U upgrade && apk add --no-cache bind-tools
